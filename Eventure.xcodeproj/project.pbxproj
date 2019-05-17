@@ -15,6 +15,9 @@
 		94E2ACBC228ED88D00B0D5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACBA228ED88D00B0D5CD /* LaunchScreen.storyboard */; };
 		94E2ACC7228ED88D00B0D5CD /* EventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACC6228ED88D00B0D5CD /* EventureTests.swift */; };
 		94E2ACD2228ED88D00B0D5CD /* EventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACD1228ED88D00B0D5CD /* EventureUITests.swift */; };
+		94E2ACE4228EF98400B0D5CD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACE3228EF98400B0D5CD /* fonts */; };
+		94E2ACE5228EF98400B0D5CD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACE3228EF98400B0D5CD /* fonts */; };
+		94E2ACE6228EF98400B0D5CD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACE3228EF98400B0D5CD /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		94E2ACCD228ED88D00B0D5CD /* EventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E2ACD1228ED88D00B0D5CD /* EventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventureUITests.swift; sourceTree = "<group>"; };
 		94E2ACD3228ED88D00B0D5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E2ACE3228EF98400B0D5CD /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				94E2ACAE228ED88100B0D5CD /* AppDelegate.swift */,
 				94E2ACB0228ED88100B0D5CD /* ViewController.swift */,
 				94E2ACB2228ED88100B0D5CD /* Main.storyboard */,
+				94E2ACE3228EF98400B0D5CD /* fonts */,
 				94E2ACB8228ED88D00B0D5CD /* Assets.xcassets */,
 				94E2ACBA228ED88D00B0D5CD /* LaunchScreen.storyboard */,
 				94E2ACBD228ED88D00B0D5CD /* Info.plist */,
@@ -235,6 +240,7 @@
 				94E2ACBC228ED88D00B0D5CD /* LaunchScreen.storyboard in Resources */,
 				94E2ACB9228ED88D00B0D5CD /* Assets.xcassets in Resources */,
 				94E2ACB4228ED88100B0D5CD /* Main.storyboard in Resources */,
+				94E2ACE4228EF98400B0D5CD /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E2ACE5228EF98400B0D5CD /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E2ACE6228EF98400B0D5CD /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
