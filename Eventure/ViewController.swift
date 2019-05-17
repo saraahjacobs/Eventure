@@ -1,9 +1,10 @@
 //
 //  ViewController.swift
 //  Eventure
-//
+// Integration Mobile App en Web 2019 - groep Erasmix 5
+
 //  Created by Sarah Jacobs on 17/05/2019.
-//  Copyright © 2019 Sarah Jacobs. All rights reserved.
+//  Copyright © 2019 Sarah Jacobs and friends. All rights reserved.
 //
 
 import UIKit
