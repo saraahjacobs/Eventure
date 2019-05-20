@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94B9F04A2292B11200CD7B87 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F0492292B11200CD7B87 /* RegisterViewController.swift */; };
 		94E2ACAF228ED88100B0D5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACAE228ED88100B0D5CD /* AppDelegate.swift */; };
 		94E2ACB1228ED88100B0D5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACB0228ED88100B0D5CD /* ViewController.swift */; };
 		94E2ACB4228ED88100B0D5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACB2228ED88100B0D5CD /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94B9F0492292B11200CD7B87 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		94E2ACAB228ED88100B0D5CD /* Eventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E2ACAE228ED88100B0D5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E2ACB0228ED88100B0D5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				94E2ACAE228ED88100B0D5CD /* AppDelegate.swift */,
 				94E2ACB0228ED88100B0D5CD /* ViewController.swift */,
 				94E2ACB2228ED88100B0D5CD /* Main.storyboard */,
+				94B9F0492292B11200CD7B87 /* RegisterViewController.swift */,
 				94E2ACE7228FFCE000B0D5CD /* LoginViewController.swift */,
 				94E2ACE3228EF98400B0D5CD /* fonts */,
 				94E2ACB8228ED88D00B0D5CD /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E2ACE8228FFCE000B0D5CD /* LoginViewController.swift in Sources */,
+				94B9F04A2292B11200CD7B87 /* RegisterViewController.swift in Sources */,
 				94E2ACB7228ED88100B0D5CD /* Eventure.xcdatamodeld in Sources */,
 				94E2ACB1228ED88100B0D5CD /* ViewController.swift in Sources */,
 				94E2ACAF228ED88100B0D5CD /* AppDelegate.swift in Sources */,
