@@ -15,6 +15,15 @@
 		94E2ACBC228ED88D00B0D5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACBA228ED88D00B0D5CD /* LaunchScreen.storyboard */; };
 		94E2ACC7228ED88D00B0D5CD /* EventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACC6228ED88D00B0D5CD /* EventureTests.swift */; };
 		94E2ACD2228ED88D00B0D5CD /* EventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACD1228ED88D00B0D5CD /* EventureUITests.swift */; };
+		C127045B2292D203006EC916 /* ProfielViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704522292D201006EC916 /* ProfielViewController.swift */; };
+		C127045C2292D203006EC916 /* ProfielBewerkenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704532292D202006EC916 /* ProfielBewerkenViewController.swift */; };
+		C127045D2292D203006EC916 /* RegistreerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704542292D202006EC916 /* RegistreerViewController.swift */; };
+		C127045E2292D203006EC916 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704552292D202006EC916 /* ChatTableViewController.swift */; };
+		C127045F2292D203006EC916 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704562292D202006EC916 /* MapViewController.swift */; };
+		C12704602292D203006EC916 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704572292D202006EC916 /* EventsTableViewController.swift */; };
+		C12704612292D203006EC916 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704582292D202006EC916 /* EventViewController.swift */; };
+		C12704622292D203006EC916 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12704592292D202006EC916 /* LoginViewController.swift */; };
+		C12704632292D203006EC916 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127045A2292D203006EC916 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		94E2ACCD228ED88D00B0D5CD /* EventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E2ACD1228ED88D00B0D5CD /* EventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventureUITests.swift; sourceTree = "<group>"; };
 		94E2ACD3228ED88D00B0D5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12704522292D201006EC916 /* ProfielViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfielViewController.swift; sourceTree = "<group>"; };
+		C12704532292D202006EC916 /* ProfielBewerkenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfielBewerkenViewController.swift; sourceTree = "<group>"; };
+		C12704542292D202006EC916 /* RegistreerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistreerViewController.swift; sourceTree = "<group>"; };
+		C12704552292D202006EC916 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		C12704562292D202006EC916 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C12704572292D202006EC916 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		C12704582292D202006EC916 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		C12704592292D202006EC916 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C127045A2292D203006EC916 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +120,15 @@
 				94E2ACAE228ED88100B0D5CD /* AppDelegate.swift */,
 				94E2ACB0228ED88100B0D5CD /* ViewController.swift */,
 				94E2ACB2228ED88100B0D5CD /* Main.storyboard */,
+				C12704552292D202006EC916 /* ChatTableViewController.swift */,
+				C127045A2292D203006EC916 /* ChatViewController.swift */,
+				C12704572292D202006EC916 /* EventsTableViewController.swift */,
+				C12704582292D202006EC916 /* EventViewController.swift */,
+				C12704592292D202006EC916 /* LoginViewController.swift */,
+				C12704562292D202006EC916 /* MapViewController.swift */,
+				C12704532292D202006EC916 /* ProfielBewerkenViewController.swift */,
+				C12704522292D201006EC916 /* ProfielViewController.swift */,
+				C12704542292D202006EC916 /* RegistreerViewController.swift */,
 				94E2ACB8228ED88D00B0D5CD /* Assets.xcassets */,
 				94E2ACBA228ED88D00B0D5CD /* LaunchScreen.storyboard */,
 				94E2ACBD228ED88D00B0D5CD /* Info.plist */,
@@ -259,9 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C127045C2292D203006EC916 /* ProfielBewerkenViewController.swift in Sources */,
 				94E2ACB7228ED88100B0D5CD /* Eventure.xcdatamodeld in Sources */,
+				C12704602292D203006EC916 /* EventsTableViewController.swift in Sources */,
+				C127045D2292D203006EC916 /* RegistreerViewController.swift in Sources */,
 				94E2ACB1228ED88100B0D5CD /* ViewController.swift in Sources */,
+				C12704612292D203006EC916 /* EventViewController.swift in Sources */,
+				C127045B2292D203006EC916 /* ProfielViewController.swift in Sources */,
 				94E2ACAF228ED88100B0D5CD /* AppDelegate.swift in Sources */,
+				C127045E2292D203006EC916 /* ChatTableViewController.swift in Sources */,
+				C127045F2292D203006EC916 /* MapViewController.swift in Sources */,
+				C12704632292D203006EC916 /* ChatViewController.swift in Sources */,
+				C12704622292D203006EC916 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
