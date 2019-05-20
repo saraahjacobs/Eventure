@@ -18,6 +18,9 @@
 		94E2ACE4228EF98400B0D5CD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACE3228EF98400B0D5CD /* fonts */; };
 		94E2ACE5228EF98400B0D5CD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACE3228EF98400B0D5CD /* fonts */; };
 		94E2ACE6228EF98400B0D5CD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 94E2ACE3228EF98400B0D5CD /* fonts */; };
+		94E2ACE8228FFCE000B0D5CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACE7228FFCE000B0D5CD /* LoginViewController.swift */; };
+		94E2ACE9228FFCE000B0D5CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACE7228FFCE000B0D5CD /* LoginViewController.swift */; };
+		94E2ACEA228FFCE000B0D5CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2ACE7228FFCE000B0D5CD /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		94E2ACD1228ED88D00B0D5CD /* EventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventureUITests.swift; sourceTree = "<group>"; };
 		94E2ACD3228ED88D00B0D5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E2ACE3228EF98400B0D5CD /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		94E2ACE7228FFCE000B0D5CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				94E2ACAE228ED88100B0D5CD /* AppDelegate.swift */,
 				94E2ACB0228ED88100B0D5CD /* ViewController.swift */,
 				94E2ACB2228ED88100B0D5CD /* Main.storyboard */,
+				94E2ACE7228FFCE000B0D5CD /* LoginViewController.swift */,
 				94E2ACE3228EF98400B0D5CD /* fonts */,
 				94E2ACB8228ED88D00B0D5CD /* Assets.xcassets */,
 				94E2ACBA228ED88D00B0D5CD /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E2ACE8228FFCE000B0D5CD /* LoginViewController.swift in Sources */,
 				94E2ACB7228ED88100B0D5CD /* Eventure.xcdatamodeld in Sources */,
 				94E2ACB1228ED88100B0D5CD /* ViewController.swift in Sources */,
 				94E2ACAF228ED88100B0D5CD /* AppDelegate.swift in Sources */,
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E2ACE9228FFCE000B0D5CD /* LoginViewController.swift in Sources */,
 				94E2ACC7228ED88D00B0D5CD /* EventureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E2ACEA228FFCE000B0D5CD /* LoginViewController.swift in Sources */,
 				94E2ACD2228ED88D00B0D5CD /* EventureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
